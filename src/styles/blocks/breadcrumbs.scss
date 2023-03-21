@@ -1,0 +1,21 @@
+.breadcrumbs {
+  padding-top: 5px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 44, 62, 0.4);
+  }
+
+  &__item_ampersand::after {
+    font-size: 14px;
+    font-weight: 500;
+    content: ">";
+    color: rgba(0, 44, 62, 0.4);
+    vertical-align: text-top;
+  }
+}
