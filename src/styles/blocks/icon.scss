@@ -1,0 +1,55 @@
+.icon {
+  display: flex;
+
+  &__substract {
+    padding-right: 19px;
+  }
+
+  &__card {
+    width: 95%;
+  }
+
+  &__check {
+    justify-content: center;
+  }
+
+  &__info {
+    width: inherit;
+  }
+
+  &__form {
+    position: absolute;
+    &--1 {
+      top: 120px;
+      right: 260px;
+    }
+    &--2 {
+      top: 120px;
+      right: 140px;
+    }
+    &--3 {
+      top: 236px;
+      right: 436px;
+    }
+    &--4 {
+      top: 230px;
+      right: 160px;
+    }
+    &--5 {
+      top: 260px;
+      right: 230px;
+    }
+    &--6 {
+      top: 341px;
+      right: 330px;
+    }
+    &--7 {
+      top: 350px;
+      right: 362px;
+    }
+    &--8 {
+      top: 341px;
+      right: 160px;
+    }
+  }
+}

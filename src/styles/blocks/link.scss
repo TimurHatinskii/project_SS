@@ -1,0 +1,32 @@
+.link {
+  font-size: 10px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: underline;
+
+  &__list {
+    display: flex;
+    @media screen and (max-width: 490px) {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+
+  &__item {
+    padding-right: 30px;
+
+    @media screen and (max-width: 490px) {
+      padding-right: 25px;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &--size {
+    &--12 {
+      font-size: 12px;
+    }
+  }
+}

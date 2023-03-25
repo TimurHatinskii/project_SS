@@ -1,0 +1,182 @@
+.svg {
+  &-menu {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-logo {
+    width: 183px;
+    height: 50px;
+
+    @media screen and (max-width: 870px) {
+      width: 120px;
+      height: 32px;
+    }
+  }
+
+  &-phone {
+    width: 21px;
+    height: 21px;
+    fill: #ffffff;
+  }
+
+  &-language {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+  }
+
+  &-arrow-down {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.5;
+  }
+
+  &-basket {
+    width: 24px;
+    height: 24px;
+    fill: #212121;
+  }
+
+  &-search {
+    width: 24px;
+    height: 24px;
+    fill: #000000;
+  }
+
+  &-present_to_all {
+    width: 26px;
+    height: 26px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-format_shapes {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-build {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-turned_in_not {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-vpn_key {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-sort {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-line_weight {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-border_style {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-stay_primary_portrait {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-shuffle {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-tv {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-subtract {
+    width: 20px;
+    height: 20px;
+  }
+
+  &-device {
+    width: 32px;
+    height: 32px;
+    fill: #ffffff;
+    fill-opacity: 0.87;
+  }
+
+  &-check {
+    fill: #005d83;
+    width: 18px;
+    height: 18px;
+  }
+
+  &-arrow {
+    width: 24px;
+    height: 24px;
+    fill-opacity: 0.87;
+
+    &--gray {
+      fill: rgba(255, 255, 255, 0.87);
+    }
+
+    &--white {
+      fill: #ffffff;
+    }
+
+    &--dark {
+      fill: rgba(0, 0, 0, 0.87);
+    }
+  }
+
+  &-action {
+    width: 14px;
+    height: 14px;
+    fill-opacity: 0.55;
+    fill: rgba(0, 0, 0, 0.55);
+  }
+
+  &-mail {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+  }
+
+  &-social {
+    width: 28px;
+    height: 28px;
+    fill-opacity: 0.8;
+    fill: #ffffff;
+  }
+}

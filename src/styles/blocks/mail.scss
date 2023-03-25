@@ -1,0 +1,15 @@
+.mail {
+  display: flex;
+  padding-right: 45px;
+  &__address {
+    padding-left: 9px;
+    font-size: 14px;
+    color: #ffffff;
+    font-style: initial;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-right: 0;
+    padding-top: 27px;
+  }
+}
