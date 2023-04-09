@@ -9,24 +9,20 @@
   </head>
   <body>
     <div class="wrapper">      
-      <div class="container header__container">
+      <div class="container">
         <header class="header">
           <div class="header__line">
             <div class="header__block">
               <button class="gamburger">
-                <div class="gamburger__pic">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-menu">
-                    <use xlink:href="./images/icons/svg/menu.svg#menu"></use>
-                  </svg>
-                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg_menu">
+                  <use xlink:href="./images/icons/svg/menu.svg#menu"></use>
+                </svg>
               </button>
-              <div class="logo header__logo">
-                <a href="#" class="logo">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="svg-logo">
-                    <use xlink:href="./images/icons/svg/logo.svg#logo"></use>
-                  </svg>
-                </a>
-              </div>
+              <a href="#" class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg_logo">
+                  <use xlink:href="./images/icons/svg/logo.svg#logo"></use>
+                </svg>
+              </a>
               <div class="header__nav">
                 <nav class="nav">
                   <ul class="nav__list">
@@ -44,49 +40,39 @@
               </div>
             </div>
             <div class="header__block">
-              <div class="header__address">
-                <address class="address">
-                  <div class="phone">
-                    <div class="icon icon__phone">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="svg-phone">
-                        <use xlink:href="./images/icons/svg/phone2.svg#phone"></use>
-                      </svg>
-                    </div>
-                    <a class="phone__number" href="tel:88002013310"
-                      >8 800 201 33 10</a
-                    >
-                  </div>
-                </address>                
-              </div>
+              <address class="contacts contacts--768--none">
+                <div class="contacts__content">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="svg_phone">
+                    <use xlink:href="./images/icons/svg/phone2.svg#phone"></use>
+                  </svg>
+                  <a class="contacts__info" href="tel:88002013310"
+                    >8 800 201 33 10</a
+                  >
+                </div>
+              </address>
               <div class="header__buttons">
                 <button class="language">
-                  <div class="icon icon__language">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-language">
-                      <use
-                        xlink:href="./images/icons/svg/language.svg#language"
-                      ></use>
-                    </svg>
-                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="svg_language">
+                    <use
+                      xlink:href="./images/icons/svg/language.svg#language"
+                    ></use>
+                  </svg>
                   <div class="language__content">ru</div>
-                  <div class="icon icon__arrow-down">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-arrow-down">
-                      <use
-                        xlink:href="./images/icons/svg/keyboard_arrow_down.svg#arrow-down"
-                      ></use>
-                    </svg>
-                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="svg_arrow-down">
+                    <use
+                      xlink:href="./images/icons/svg/keyboard_arrow_down.svg#arrow-down"
+                    ></use>
+                  </svg>
                 </button>
                 <button class="basket">
-                  <div class="icon icon__basket">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-basket">
-                      <use
-                        xlink:href="./images/icons/svg/shopping_cart.svg#basket"
-                      ></use>
-                    </svg>
-                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="svg_basket">
+                    <use
+                      xlink:href="./images/icons/svg/shopping_cart.svg#basket"
+                    ></use>
+                  </svg>
                   <div class="basket__content">Корзина</div>
-                  <div class="circle">
-                    <div class="circle__content">0</div>
+                  <div class="button-round">
+                    <div class="button-round__content">0</div>
                   </div>
                 </button>
               </div>
@@ -94,32 +80,26 @@
           </div>
           <div class="header__line">
             <div class="search">
-              <div class="search__border">
-                <input
-                  type="text"
-                  value="Поиск по услугам"
-                  class="search__input"
-                /><button class="search__button">
-                  <div class="icon icon__search">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-search">
-                      <use
-                        xlink:href="./images/icons/svg/search.svg#search"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="search__button_content">поиск</div>
-                </button>
-              </div>
+              <input
+                type="text"
+                placeholder="Поиск по услугам"
+                class="input input--right-border--none"
+              /><button class="button-info button-info--left-border--none">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="svg_search">
+                    <use
+                      xlink:href="./images/icons/svg/search.svg#search"
+                    ></use>
+                  </svg>
+                <div class="button-info__content">поиск</div>
+              </button>
             </div>
           </div>
         </header>
       </div>
       <main class="maincontent">
-        <section class="section catalog">
-          <div class="container container__catalog">
-            <div class="title">
-              <h3 class="title__heading">Каталог услуг</h3>
-            </div>
+        <section class="section services">
+          <div class="container">
+            <h3 class="title">Каталог услуг</h3>
             <div class="breadcrumbs">
               <nav class="breadcrumbs__nav">
                 <ul class="breadcrumbs__list">
@@ -132,188 +112,188 @@
                 </ul>
               </nav>
             </div>
-            <div class="catalog__buttons catalog__buttons--pc-tablet">
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
+            <div class="services__card services__card--pc-tablet">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="svg-present_to_all"
+                      class="svg_present_to_all"
                     >
                       <use
                         xlink:href="./images/icons/svg/present_to_all.svg#present_to_all"
                       ></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">IT-аутсорсинг</h5>
+                  <div class="button-services__info">
+                    <h5 class="title--small">IT-аутсорсинг</h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="svg-format_shapes"
+                      class="svg_format_shapes"
                     >
                       <use
                         xlink:href="./images/icons/svg/format_shapes.svg#format_shapes"
                       ></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">Дизайн</h5>
+                  <div class="button-services__info">
+                    <h5 class="title--small">Дизайн</h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-build">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg_build">
                       <use xlink:href="./images/icons/svg/build.svg#build"></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">
+                  <div class="button-services__info">
+                    <h5 class="title--small">
                       Техническая поддержка
                     </h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="svg-turned_in_not"
+                      class="svg_turned_in_not"
                     >
                       <use
                         xlink:href="./images/icons/svg/turned_in_not.svg#turned_in_not"
                       ></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">
+                  <div class="button-services__info">
+                    <h5 class="title--small">
                       Внедрение Битрикс24
                     </h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-vpn_key">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg_vpn_key">
                       <use
                         xlink:href="./images/icons/svg/vpn_key.svg#vpn_key"
                       ></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">
+                  <div class="button-services__info">
+                    <h5 class="title--small">
                       IT-продукт под ключ
                     </h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-sort">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg_sort">
                       <use xlink:href="./images/icons/svg/sort.svg#sort"></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">1С-разработка</h5>
+                  <div class="button-services__info">
+                    <h5 class="title--small">1С-разработка</h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="svg-line_weight"
+                      class="svg_line_weight"
                     >
                       <use
                         xlink:href="./images/icons/svg/line_weight.svg#line_weight"
                       ></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">Jira Service</h5>
+                  <div class="button-services__info">
+                    <h5 class="title--small">Jira Service</h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="svg-border_style"
+                      class="svg_border_style"
                     >
                       <use
                         xlink:href="./images/icons/svg/border_style.svg#border_style"
                       ></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">IT-архитектура</h5>
+                  <div class="button-services__info">
+                    <h5 class="title--small">IT-архитектура</h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="svg-stay_primary_portrait"
+                      class="svg_stay_primary_portrait"
                     >
                       <use
                         xlink:href="./images/icons/svg/stay_primary_portrait.svg#stay_primary_portrait"
                       ></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">
+                  <div class="button-services__info">
+                    <h5 class="title--small">
                       Разработка приложений
                     </h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-shuffle">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg_shuffle">
                       <use
                         xlink:href="./images/icons/svg/shuffle.svg#shuffle"
                       ></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">Тестирование</h5>
+                  <div class="button-services__info">
+                    <h5 class="title--small">Тестирование</h5>
                     <span class="text text--mt10">8 предложений</span>
                   </div>
                 </div>
               </button>
-              <button class="button__catalog">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-tv">
+              <button class="button-services">
+                <div class="button-services__content">
+                  <div class="button-round button-round--42">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg_tv">
                       <use xlink:href="./images/icons/svg/tv.svg#tv"></use>
                     </svg>
                   </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">
+                  <div class="button-services__info">
+                    <h5 class="title--small">
                       Разработка сайтов и порталов
                     </h5>
                     <span class="text text--mt10">8 предложений</span>
@@ -321,27 +301,27 @@
                 </div>
               </button>
             </div>
-            <div class="catalog__buttons catalog__buttons--phone">
-              <button class="button__catalog button__catalog--bcg--F5F9FA">
-                <div class="button__catalog_content">
-                  <div class="circle circle--42">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-tv">
-                      <use xlink:href="./images/icons/svg/tv.svg#tv"></use>
-                    </svg>
-                  </div>
-                  <div class="button__catalog_info">
-                    <h5 class="title title__heading_small">
+            <div class="services__card services__card--phone">
+              <button class="button-services button-services--bcg--F5F9FA">
+                <div class="button-services__content">
+                  <div class="button-services__info">
+                    <h5 class="title--small">
                       Выбрать категорию
                     </h5>
                     <span class="text text--mt10">46 предложений</span>
+                  </div>
+                  <div class="button-round button-round--42">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg_arrow svg_arrow--white">
+                      <use xlink:href="./images/icons/svg/keyboard_arrow_down.svg#arrow-down"></use>
+                    </svg>
                   </div>
                 </div>
               </button>
             </div>
             <div class="filter">
               <div class="filter__left">
-                <button class="button__filter">
-                  <div class="icon icon__substract">
+                <button class="button-filter">
+                  <div class="icon icon_subtract">
                     <img
                       src="./images/icons/png/subtract.png"
                       alt=""
@@ -352,8 +332,8 @@
                     >По цене (убывание)</span
                   >
                 </button>
-                <button class="button__filter">
-                  <div class="icon icon__substract">
+                <button class="button-filter">
+                  <div class="icon icon_subtract">
                     <img src="./images/icons/png/subtract.png" alt="" />
                   </div>
                   <span class="text text--color--212121 text--size--14"
@@ -363,549 +343,548 @@
               </div>
               <div class="filter__right">
                 <button
-                  class="button__filter button__filter_circle"
+                  class="button-filter button-filter--round"
                 >
-                  <div class="icon icon__union">
+                  <div class="icon">
                     <img src="./images/icons/png/union.png" alt="" />
                   </div>
                 </button>
               </div>
             </div>
-            <div class="card">
-              <ul class="card__list">
-                <li class="card__item">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_blue.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+            <div class="card-services">
+              <ul class="card-services__list">
+                <li class="card-services__item">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_blue.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_green.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_green.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_red.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_red.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item card__item--600--none">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_purple.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item card-services__item--600--none">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_purple.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item card__item--768--none">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_blue.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item card-services__item--768--none">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_blue.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item card__item--768--none">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_green.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item card-services__item--768--none">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_green.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item card__item--768--none">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_red.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item card-services__item--768--none">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_red.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item card__item--768--none">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_purple.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item card-services__item--768--none">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_purple.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item card__item--768--none">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_blue.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item card-services__item--768--none">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_blue.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item card__item--1200--none">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_green.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item card-services__item--1200--none">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_green.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item card__item--1200--none">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_red.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item card-services__item--1200--none">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_red.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
                 </li>
-                <li class="card__item card__item--1200--none">
-                  <div class="card__content">
-                    <div class="card__icon">                      
-                      <img src="./images/Group_purple.png" alt="" class="icon icon__card" />
-                      <button class="button__view button__view_circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-device">
-                          <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="card__info">
-                      <div class="card__desk">
+                <li class="card-services__item card-services__item--1200--none">
+                  <div class="card-services__icon">
+                    <img src="./images/Group_purple.png" alt="" class="icon icon_card" />
+                    <button class="button-tab button-tab--round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_device">
+                        <use xlink:href="./images/icons/svg/dvr.svg#device"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card-services__content">
+                    <div class="card-services__desc">
+                      <div class="card-services__info">
                         <span class="text text--color--002C3E">
                           Разработка
                         </span>
-                        <h5 class="text text--size--16 text--padding--10">
+                        <h5 class="text text--size--16 text--margin--10">
                           Корпоративный сайт
                         </h5>
-                        <span class="text">Срок: 20-45 дней.</span>
+                        <span class="text text--size--13 text--color--212121">Срок: 20-45 дней.</span>
                       </div>
-                      <div class="card__order">
-                        <button class="button__info">
-                          <span
-                          iv class="text text_size--14 text--color--005D83">
+                      <div class="card-services__order">
+                        <button class="button-detailed">
+                          <span class="text text--size--14 text--color--005D83">
                             16
                           </span>
-                          <div class="icon icon__check">
+                          <div class="icon icon_check">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="svg-check"
+                              class="svg_check"
                             >
                               <use xlink:href="./images/icons/svg/check.svg#check"></use>
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div class="card__details">
-                      <div class="card__price">
+                    <div class="card-services__details">
+                      <div class="card-services__price">
                         <span class="text text--sale">190 000 ₽</span>
                         <h5 class="text text--price">160 000 ₽</h5>
                       </div>
-                      <button class="button__check button__check_detailed">ПОДРОБНЕЕ</button>
+                      <button class="button-info button-info--padding--17-18">ПОДРОБНЕЕ</button>
                     </div>
                   </div>
-                </li>                
+                </li>              
               </ul>
             </div> 
             <div class="pagination">
-              <div class="paginatio__page">
+              <div class="pagination__page">
                 <ul class="pagination__list">
                   <li class="pagination__item pagination__item--active">
                     <a href="#" class="pagination__link">1</a>
@@ -921,7 +900,7 @@
                   </li>
                   <li class="pagination__item">
                     <a href="#" class="pagination__link">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="svg-arrow svg-arrow--dark">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_arrow svg_arrow--dark">
                         <use xlink:href="./images/icons/svg/keyboard_arrow_right.svg#arrow-right"></use>
                       </svg>
                     </a>
@@ -932,171 +911,160 @@
           </div>
         </section>
         <section class="section info">
-          <div class="container container__info">
-            <span class="text__nav">Блог статей</span>
-            <div class="info__heading">
-              <div class="title">                
-                <h3 class="title__heading title__heading--fw--700">Читайте нас</h3>
-              </div>
+          <div class="container">
+            <span class="text-nav">Блог статей</span>
+            <div class="info__block">              
+                <h3 class="title title--fw--700">Читайте нас</h3>
               <div class="info__button">
-                <button class="button__view button__view_go">
-                  перейти в блог
-                  <div class="icon__right">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-arrow svg-arrow--gray">
-                      <use xlink:href="./images/icons/svg/keyboard_arrow_right.svg#arrow-right"></use>
-                    </svg>
+                <button class="button-go">
+                  <div class="button-go__text">перейти в блог
                   </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="svg_arrow svg_arrow--gray">
+                    <use xlink:href="./images/icons/svg/keyboard_arrow_right.svg#arrow-right"></use>
+                  </svg>
                 </button>
-                <div class="pagination__page">
-                  <ul class="pagination__list">
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg-arrow svg-arrow--dark">
-                          <use xlink:href="./images/icons/svg/keyboard_arrow_left.svg#arrow-left"></use>
-                      </a>
-                    </li>
-                    <li class="pagination__item pagination__item--bg--002C3E">
-                      <a href="#" class="pagination__link">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg-arrow svg-arrow--gray">
-                          <use xlink:href="./images/icons/svg/keyboard_arrow_right.svg#arrow-right"></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <div class="info__button-flip">
+                  <button class="button-round button-round--36 button-round--bcg--FFFFFF">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg_arrow svg_arrow--dark">
+                    <use xlink:href="./images/icons/svg/keyboard_arrow_left.svg#arrow-left"></use>
+                    </svg>
+                  </button>
+                  <button class="button-round button-round--36 button-round--ml--14">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg_arrow svg_arrow--gray">
+                    <use xlink:href="./images/icons/svg/keyboard_arrow_right.svg#arrow-right"></use>
+                    </svg>
+                  </button>
+                </div>                
               </div>
             </div>
             <ul class="info__list">
               <li class="info__card">
                 <div class="info__img">
-                  <img src="./images/Mask_group.png" alt="" class="icon icon__info" />
-                  <button class="button__view button__view_rectangle">Разработка</button>
+                  <button class="button-tab button-tab--rectangle">Разработка</button>
                 </div>
-                <div class="info__desk">
+                <div class="info__desc">
                   <div class="info__check">
-                    <div class="info__check_content">
-                      <button class="button__info button__info--date">
-                        12.08.2023
+                    <div class="info__content">
+                      <button class="button-detailed button-detailed__info">
+                        <span class="text-info">12.08.2023</span>
                       </button>
                     </div>
-                    <div class="info__check_content info__check_content--width--25">
-                      <button class="button__info button__info--like">
-                        12
+                    <div class="info__content">
+                      <button class="button-detailed button-detailed__info button-detailed__info--mw--43">
+                        <span class="text-info text-info--mr--5">12</span>
                         <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-action">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_action">
                             <use xlink:href="./images/icons/svg/favorite_border.svg#favorite"></use>
                           </svg>
                         </div>
                       </button>
-                      <button class="button__info button__info--comment">
-                        6
+                      <button class="button-detailed button-detailed__info button-detailed__info--mw--38">
+                        <span class="text-info text-info--mr--5">6</span>
                         <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-action">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_action">
                             <use xlink:href="./images/icons/svg/chat_bubble_outline.svg#chat"></use>
                           </svg>
                         </div>
                       </button>
-                      <button class="button__info button__info--eye">
-                        24
+                      <button class="button-detailed button-detailed__info button-detailed__info--mw--46">
+                        <span class="text-info text-info--mr--3">24</span>
                         <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-action">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_action">
                             <use xlink:href="./images/icons/svg/remove_red_eye.svg#eye"></use>
                           </svg>
                         </div>
                       </button>
                     </div>
                   </div>
-                  <span class="text text--size--14 text--color--212121">
+                  <span class="text text--size--14 text--color--212121 text--lh--140">
                     Entity Framework: как быстрее написать код для работы с базой
                     данных
                   </span>
                 </div>
               </li>
-              <li class="info__card info__card--675--none">
+              <li class="info__card info__card--768--none">
                 <div class="info__img">
-                  <img src="./images/Mask_group.png" alt="" class="icon icon__info" />
-                  <button class="button__view button__view_rectangle">Разработка</button>
+                  <button class="button-tab button-tab--rectangle">Разработка</button>
                 </div>
-                <div class="info__desk">
+                <div class="info__desc">
                   <div class="info__check">
-                    <div class="info__check_content">
-                      <button class="button__info button__info--date">
-                        12.08.2023
+                    <div class="info__content">
+                      <button class="button-detailed button-detailed__info">
+                        <span class="text-info">12.08.2023</span>
                       </button>
                     </div>
-                    <div class="info__check_content info__check_content--width--25">
-                      <button class="button__info button__info--like">
-                        12
+                    <div class="info__content">
+                      <button class="button-detailed button-detailed__info button-detailed__info--mw--43">
+                        <span class="text-info text-info--mr--5">12</span>
                         <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-action">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_action">
                             <use xlink:href="./images/icons/svg/favorite_border.svg#favorite"></use>
                           </svg>
                         </div>
                       </button>
-                      <button class="button__info button__info--comment">
-                        6
+                      <button class="button-detailed button-detailed__info button-detailed__info--mw--38">
+                        <span class="text-info text-info--mr--5">6</span>
                         <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-action">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_action">
                             <use xlink:href="./images/icons/svg/chat_bubble_outline.svg#chat"></use>
                           </svg>
                         </div>
                       </button>
-                      <button class="button__info button__info--eye">
-                        24
+                      <button class="button-detailed button-detailed__info button-detailed__info--mw--46">
+                        <span class="text-info text-info--mr--3">24</span>
                         <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-action">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_action">
                             <use xlink:href="./images/icons/svg/remove_red_eye.svg#eye"></use>
                           </svg>
                         </div>
                       </button>
                     </div>
                   </div>
-                  <span class="text text--size--14 text--color--212121">
+                  <span class="text text--size--14 text--color--212121 text--lh--140">
                     Entity Framework: как быстрее написать код для работы с базой
                     данных
                   </span>
                 </div>
               </li>
-              <li class="info__card info__card--900--none">
+              <li class="info__card info__card--950--none">
                 <div class="info__img">
-                  <img src="./images/Mask_group.png" alt="" class="icon icon__info" />
-                  <button class="button__view button__view_rectangle">Разработка</button>
+                  <button class="button-tab button-tab--rectangle">Разработка</button>
                 </div>
-                <div class="info__desk">
+                <div class="info__desc">
                   <div class="info__check">
-                    <div class="info__check_content">
-                      <button class="button__info button__info--date">
-                        12.08.2023
+                    <div class="info__content">
+                      <button class="button-detailed button-detailed__info">
+                        <span class="text-info">12.08.2023</span>
                       </button>
                     </div>
-                    <div class="info__check_content info__check_content--width--25">
-                      <button class="button__info button__info--like">
-                        12
+                    <div class="info__content">
+                      <button class="button-detailed button-detailed__info button-detailed__info--mw--43">
+                        <span class="text-info text-info--mr--5">12</span>
                         <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-action">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_action">
                             <use xlink:href="./images/icons/svg/favorite_border.svg#favorite"></use>
                           </svg>
                         </div>
                       </button>
-                      <button class="button__info button__info--comment">
-                        6
+                      <button class="button-detailed button-detailed__info button-detailed__info--mw--38">
+                        <span class="text-info text-info--mr--5">6</span>
                         <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-action">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_action">
                             <use xlink:href="./images/icons/svg/chat_bubble_outline.svg#chat"></use>
                           </svg>
                         </div>
                       </button>
-                      <button class="button__info button__info--eye">
-                        24
+                      <button class="button-detailed button-detailed__info button-detailed__info--mw--46">
+                        <span class="text-info text-info--mr--3">24</span>
                         <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-action">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_action">
                             <use xlink:href="./images/icons/svg/remove_red_eye.svg#eye"></use>
                           </svg>
                         </div>
                       </button>
                     </div>
                   </div>
-                  <span class="text text--size--14 text--color--212121">
+                  <span class="text text--color--212121 text--lh--140">
                     Entity Framework: как быстрее написать код для работы с базой
                     данных
                   </span>
@@ -1132,23 +1100,21 @@
               <img src="./images/form_icon/1750.png" alt="">
             </div>
           </div>          
-          <div class="container order__container">            
+          <div class="container">            
             <div class="order__block">
-              <span class="text__nav text__nav--color--white">Обратная связь</span>
-              <!-- <div class="title title--color--white title--fd--column">                 -->
-                <div class="title title--color--white title--fd--column">
-                  <h3 class="title__heading title__heading--fw--700 title__heading--color--white">Хотите с нами работать? </h3>
-                  <div class="title__heading title__heading--fw--400">Заполните форму</div>
-                </div>
-              <!-- </div> -->
+              <span class="text-nav text-nav--color--white text-nav--mb--15">Обратная связь</span>
+              <div class="title title--color--white title--fd--column title--mt--15">
+                <h3 class="title title--fw--700">Хотите с нами работать?&nbsp;</h3>
+                <div class="title title--fw--400">Заполните форму</div>
+              </div>
               <form action="" class="form" id="myForm">
                 <div class="form__column">
                   <div class="form__row">
                     <label class="form__block">
                       <input
                         type="text"
-                        class="form__input"
-                        value="Ваше имя"
+                        class="input input--form"
+                        placeholder="Ваше имя"
                         id="yourname"
                         name="yourname"
                       />
@@ -1156,8 +1122,8 @@
                     <label class="form__block">
                       <input
                         type="text"
-                        class="form__input"
-                        value="Телефон или почта"
+                        class="input input--form"
+                        placeholder="Телефон или почта"
                         id="phone-mail"
                         name="phone-mail"
                       />
@@ -1167,23 +1133,24 @@
                     <label class="form__block">
                       <input
                         type="text"
-                        class="form__input"
-                        value="Краткое описание задачи"
+                        class="input input--form"
+                        placeholder="Краткое описание задачи"
                       />
                     </label>
                   </div>
                   <div class="form__row">
                     <div class="form__block">
-                      <button type="submit" class="button__check button__check_go button__check_go--w100" id="">Отправить
-                        <div class="circle circle--42">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="svg-arrow svg-arrow--white">
+                      <button type="submit" class="button-info button-info--form" id="">
+                        <div class="button-info__content button-info__content--ml--0">Отправить</div>
+                        <div class="button-round button-round--42">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="svg_arrow svg_arrow--gray">
                             <use xlink:href="./images/icons/svg/keyboard_arrow_right.svg#arrow-right"></use>
                           </svg>
                         </div>
                       </button>
                     </div>
                     <div class="form__block">
-                      <span class="text text__footnote text__footnote--color--gray">
+                      <span class="text text-footnote text-footnote--color--gray">
                       Нажимая на кнопку, вы даете согласие на обработку персональных
                       данных и <a href="#" class="link">соглашаетесь с политикой</a> конфиденциальности.
                       </span>
@@ -1191,7 +1158,7 @@
                   </div>
                 </div>
               </form>
-              <span class="text text__footnote--uppercase">
+              <span class="text text-footnote--uppercase">
                 Мы будем рады видеть Вас в числе наших клиентов!
               </span>
             </div>              
@@ -1200,7 +1167,7 @@
       </main>
       <footer class="footer">
         <div class="footer__bcg">
-          <div class="container footer__container">
+          <div class="container">
             <div class="footer__block">
               <div class="footer__nav">
                 <nav class="nav">
@@ -1218,40 +1185,36 @@
                 </nav>
               </div>
               <div class="footer__contact">
-                <address class="address">
-                  <div class="mail">
-                    <div class="icon icon__mail">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="svg-mail">
+                <address class="contacts">
+                  <div class="contacts__content">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg_mail">
                         <use xlink:href="./images/icons/svg/markunread2.svg#mail"></use>
                       </svg>
-                    </div>
-                    <a href="#" class="mail__address">info@saasoft.ru</a>
+                    <a href="#" class="contacts__info">info@saasoft.ru</a>
                   </div>
-                  <div class="phone">
-                    <div class="icon icon__phone">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="svg-phone">
-                        <use xlink:href="./images/icons/svg/phone2.svg#phone"></use>
-                      </svg>
-                    </div>
-                    <a class="phone__number" href="tel:88002013310"
+                  <div class="contacts__content">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg_phone">
+                      <use xlink:href="./images/icons/svg/phone2.svg#phone"></use>
+                    </svg>
+                    <a class="contacts__info" href="tel:88002013310"
                       >8 800 201 33 10</a
                     >
-                  </div>                
+                  </div>
                 </address>
               </div>
             </div>
             <div class="footer__block footer__block--modify--1024">
               <div class="location">
                 <button type="submit" class="button">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="svg-arrow svg-arrow--gray">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="svg_arrow svg_arrow--gray">
                     <use xlink:href="./images/icons/svg/keyboard_arrow_up.svg#arrow-up"></use>
                   </svg>
                 </button>
                 <div class="location__text">
-                  <div class="text__address">
+                  <div class="text-address">
                     ООО "СС" | ИНН: 4205409930 | ОГРН: 1224200013025
                   </div>
-                  <div class="text__address">Юридический
+                  <div class="text-address">Юридический
                   адрес: 650000, РОССИЯ, Кемеровская обл., Кемеровский р-н,
                   КЕМЕРОВО, Улица МИЧУРИНА, д. Д. 13, квартира/офис ОФИС 226А
                   </div>
@@ -1261,21 +1224,21 @@
                 <ul class="social__list">
                   <li class="social__item">
                     <a href="#" class="social__link">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-social">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg svg_social">
                         <use xlink:href="./images/icons/svg/vk.svg#vk"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
                     <a href="#" class="social__link">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-social">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg svg_social">
                         <use xlink:href="./images/icons/svg/telegram.svg#tg"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
                     <a href="#" class="social__link">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="svg svg-social">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg svg_social">
                         <use xlink:href="./images/icons/svg/whatsapp.svg#wa"></use>
                       </svg>
                     </a>

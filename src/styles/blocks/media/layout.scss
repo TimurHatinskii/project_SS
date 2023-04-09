@@ -17,11 +17,10 @@ html {
 }
 
 body {
-  line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  font-size: 13px;
+  font-size: 12px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   background: #002c3e;
@@ -30,17 +29,17 @@ body {
 .container {
   position: relative;
   margin: 0 auto;
-  width: 83%;
-  max-width: 1600px;
+  padding: 0 10px;
+  max-width: 1335px;
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 1450px) {
-    width: 90%;
+  @media screen and (max-width: 1024px) {
+    max-width: 939px;
   }
 
-  @media screen and (max-width: 700px) {
-    width: 92%;
+  @media screen and (max-width: 360px) {
+    max-width: 340px;
   }
 }
 
@@ -79,6 +78,9 @@ button {
   background: transparent;
   cursor: pointer;
   color: inherit;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 h1,

@@ -1,0 +1,39 @@
+.contacts {
+  display: flex;
+  &--768--none {
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @media screen and (max-width: 380px) {
+      margin-right: 0;
+      margin-bottom: 27px;
+
+      &:first-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__info {
+    margin-left: 9px;
+    font-size: 14px;
+    color: #fff9f9;
+    line-height: 100%;
+    font-style: initial;
+  }
+
+  @media screen and (max-width: 380px) {
+    flex-direction: column-reverse;
+  }
+}
