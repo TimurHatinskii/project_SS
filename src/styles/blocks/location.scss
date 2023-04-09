@@ -1,3 +1,7 @@
 .location {
   display: flex;
+
+  &__text {
+    margin-left: 15px;
+  }
 }

@@ -3,22 +3,17 @@
   align-items: center;
   justify-content: center;
   border-radius: 30px;
-  background: #002c3e;
   margin-right: 20px;
+  padding: 0;
   width: 36px;
   height: 36px;
   border: 2px solid rgba(255, 255, 255, 0.1);
 
-  @media screen and (min-width: 1201px) {
+  @media screen and (min-width: 1025px) {
     display: none;
   }
 
   @media screen and (max-width: 768px) {
     margin-right: 14px;
-  }
-
-  &__pic {
-    width: 24px;
-    height: 24px;
   }
 }

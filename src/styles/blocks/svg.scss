@@ -1,148 +1,137 @@
 .svg {
-  &-menu {
+  &_menu {
     width: 24px;
     height: 24px;
     fill: #ffffff;
-    fill-opacity: 0.87;
   }
 
-  &-logo {
+  &_logo {
     width: 183px;
     height: 50px;
-
-    @media screen and (max-width: 870px) {
-      width: 120px;
-      height: 32px;
-    }
   }
 
-  &-phone {
+  &_phone {
     width: 21px;
     height: 21px;
     fill: #ffffff;
   }
 
-  &-language {
-    width: 24px;
+  &_language {
+    width: 22px;
     height: 24px;
     fill: #ffffff;
   }
 
-  &-arrow-down {
+  &_arrow-down {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.5;
   }
 
-  &-basket {
+  &_basket {
     width: 24px;
     height: 24px;
     fill: #212121;
   }
 
-  &-search {
+  &_search {
     width: 24px;
     height: 24px;
     fill: #000000;
   }
 
-  &-present_to_all {
-    width: 26px;
-    height: 26px;
+  &_present_to_all {
+    width: 25px;
+    height: 25px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-format_shapes {
+  &_format_shapes {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-build {
+  &_build {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-turned_in_not {
+  &_turned_in_not {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-vpn_key {
+  &_vpn_key {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-sort {
+  &_sort {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-line_weight {
+  &_line_weight {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-border_style {
+  &_border_style {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-stay_primary_portrait {
+  &_stay_primary_portrait {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-shuffle {
+  &_shuffle {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-tv {
+  &_tv {
     width: 24px;
     height: 24px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-subtract {
-    width: 20px;
-    height: 20px;
-  }
-
-  &-device {
+  &_device {
     width: 32px;
     height: 32px;
     fill: #ffffff;
     fill-opacity: 0.87;
   }
 
-  &-check {
+  &_check {
     fill: #005d83;
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
   }
 
-  &-arrow {
+  &_arrow {
     width: 24px;
     height: 24px;
     fill-opacity: 0.87;
@@ -160,20 +149,20 @@
     }
   }
 
-  &-action {
+  &_action {
     width: 14px;
     height: 14px;
     fill-opacity: 0.55;
     fill: rgba(0, 0, 0, 0.55);
   }
 
-  &-mail {
+  &_mail {
     width: 24px;
     height: 24px;
     fill: #ffffff;
   }
 
-  &-social {
+  &_social {
     width: 28px;
     height: 28px;
     fill-opacity: 0.8;
